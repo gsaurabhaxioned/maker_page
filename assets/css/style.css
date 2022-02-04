@@ -106,22 +106,46 @@ li {
 /*=================================
   Header styling starts here
 =================================*/
-header {
-  /* background-color: #000; */
-}
-
 .headertop .wrapper {
+  padding: 3px 0;
   display: flex;
   justify-content: space-between;
+  align-items: center;
   background-color: #000;
   color: #fff;
+  font-size: 17px;
 }
 
-.subscribe {
-  margin-left: auto;
+.header-bottom .wrapper {
+  padding: 32px 0 34px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #000;
 }
 
+.menu {
+  margin-bottom: 6px;
+  flex-basis: 65.4%;
+  align-self: flex-end;
+}
 
+.menu ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu ul li a {
+  color: #000;
+  font-size: 19px;
+  font-weight: bold;
+}
+
+.mideele-menus {
+  flex-basis: 27%;
+  display: flex;
+  justify-content: space-around;
+}
 
 
 
