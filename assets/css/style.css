@@ -229,13 +229,14 @@ li {
 }
 
 .adriana-info h2 {
-  margin-bottom: 23px;
-  font-size: 44px;
+  margin-bottom: 17px;
+  font-size: 56px;
 }
 
 .adriana-info span {
   display: block;
-  font-size: 22px;
+  font-size: 23px;
+  font-weight: bold;
   line-height: 31px;
 }
 
@@ -256,7 +257,7 @@ li {
 
 .adriana-details p {
   width: 83.6%;
-  font-size: 22px;
+  font-size: 23px;
   font-weight: bold;
   word-break: break-all;
 }
@@ -310,6 +311,10 @@ li {
   background-color: #F7F3ED;
 }
 
+.meet-the-maker-bottom .wrapper {
+  width: 77.7%;
+}
+
 .adrianas-interviews {
   display: flex;
 }
@@ -319,8 +324,8 @@ li {
 }
 
 .interview-links {
-  width: 25%;
-  margin-left: 6.8%;
+  width: 28%;
+  margin-left: 7.2%;
 }
 
 .interview-links h3 {
@@ -333,6 +338,8 @@ li {
   margin-bottom: 18px;
   color: #000;
   font-size: 18px;
+  line-height: 23px;
+  text-decoration: underline;
 }
 
 /* meet the maker styling end  */
@@ -381,15 +388,26 @@ li {
     font-weight: bold;
   }
 
+  .product-info .product-price {
+    margin-top: 9px;
+    font-weight: normal;
+  }
+
   .all-products {
     padding: 13px 21px;
     margin-top: 4%;
     margin-left: 40%;
-    border: 2px solid #000;
+    border: 3px solid #000;
     display: inline-block;
     color: #000;
     font-size: 18px;
     font-weight: bold;
+  }
+
+  .all-products::after {
+    margin-left: 11px;
+    content: "\f178";
+    font-family: "fontAwesome";
   }
 /* anima mundi producs ends  */
 /*=================================
@@ -400,7 +418,7 @@ li {
   footer styling starts here
 =================================*/ 
   footer {
-    padding-top: 74px;
+    padding: 73px 0 43px 0;
     background-color: #000;
     color: #fff;
   }
@@ -418,23 +436,30 @@ li {
   }
 
   .footer-options {
+    flex-basis: 33.5%;
     display: flex;
+    justify-content: space-between;
   }
 
   .footer-options ul {
     display: flex;
     flex-direction: column;
+    row-gap: 12px;
   }
 
   .footer-details {
     margin-left: auto;
-    /* flex-basis: 50%; */
-    font-size: 18px;
+    flex-basis: 50%;
+    font-size: 20px;
   }
 
-  .footer-details span {
+  .footer-details span,.footer-details address {
     margin-top: 10px;
     display: block;
+  }
+
+  .address,.footer-details .time,.icons {
+    margin-left: 52.2%;
   }
 
   .footer-details .time {
@@ -442,8 +467,8 @@ li {
   } 
 
   .icons {
-    width: 17%;
-    margin-top: 24.5%;
+    width: 12.6%;
+    margin-top: 18%;
     display: flex;
     justify-content: space-between;
   }
@@ -464,8 +489,18 @@ li {
    }
 
    footer .copyright {
+     margin-top: 19%;
      display: inline-block;
      font-size: 17px
+   }
+
+   .copyright:nth-child(3) {
+     margin-left: 10px;
+   }
+
+   .footer-bottom {
+     padding: 100px 0;
+     background-color: #fff;
    }
 
  /*=================================
@@ -476,6 +511,10 @@ li {
 /*media query for 995px starts here*/
 @media only screen and (max-width: 995px) {
 
+.adriana-info,.video,.play-button {
+  display: none;
+}
 
+.header-bottom,
 
 }  
