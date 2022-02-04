@@ -156,6 +156,7 @@ li {
 /*=================================
   main styling starts here
 =================================*/
+/* meet the makers styling start  */
 .meet-the-maker .wrapper {
   margin-top: 40px;
 }
@@ -266,6 +267,62 @@ li {
   font-size: 18px;
 }
 
+/* meet the maker styling end  */
+/* anima mundi products start  */
+
+  .anima-mundi-products {
+    padding-top: 5.7%;
+  }
+
+  .anima-mundi-products .wrapper h2 {
+    margin-bottom: 73px;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .our-products {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+  }
+
+  .product-info {
+    flex-basis: 23%;
+    text-align: center;
+  }
+
+  .product-info::before {
+    content: "";
+    width: 98%;
+    height: 5px;
+    margin: auto;
+    display: block;
+    background-color: #E7BD13;
+  }
+
+  .product-info figure {
+    width: 140px;
+    margin:28px auto 45px auto;
+  }
+
+  .product-info span {
+    display: block;
+    font-size: 19px;
+    font-weight: bold;
+  }
+
+  .all-products {
+    padding: 13px 21px;
+    margin-top: 4%;
+    margin-left: 40%;
+    border: 2px solid #000;
+    display: inline-block;
+    color: #000;
+    font-size: 18px;
+    font-weight: bold;
+  }
+/* anima mundi producs ends  */
 /*=================================
   main styling ends here
 =================================*/
