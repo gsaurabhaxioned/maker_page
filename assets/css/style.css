@@ -330,8 +330,35 @@ li {
 /*=================================
   footer styling starts here
 =================================*/ 
+  footer {
+    background-color: #000;
+    color: #fff;
+  }
 
+  footer a {
+    color: #fff;
+  }
 
+  .footer-options a {
+    font-size: 19px;
+  }
+
+  .footer-top {
+    display: flex;
+  }
+
+  .footer-options {
+    display: flex;
+  }
+
+  .footer-options ul {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footer-details {
+    margin-left: auto;
+  }
 
 
 
