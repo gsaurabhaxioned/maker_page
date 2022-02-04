@@ -190,18 +190,18 @@ li {
   margin-top: 42px;
 }
 
-.Adriana-info h2 {
+.adriana-info h2 {
   margin-bottom: 23px;
   font-size: 44px;
 }
 
-.Adriana-info span {
+.adriana-info span {
   display: block;
   font-size: 22px;
   line-height: 31px;
 }
 
-.Adriana-info {
+.adriana-info {
   width: 37.4%;
   padding: 43px 0 56px 37px;
   position: absolute;
@@ -211,19 +211,60 @@ li {
   box-sizing: border-box;
 }
 
-.Adeiana-ayales {
+.adeiana-ayales {
   position: relative;
 }
 
-.Adriana-detalis p {
-  font-size: 20px;
+.adriana-detalis p {
+  width: 83.6%;
+  font-size: 22px;
   font-weight: bold;
+  word-break: break-all;
 }
 
-.Adriana-info {
+.adriana-detalis {
+  margin-top: 8.6%;
   display: flex;
 }
 
+.adriana-info-description {
+  flex-basis: 76.5%;
+}
+
+.gap {
+  margin-top: 45px;
+}
+
+.meet-the-maker-bottom {
+  padding-top: 31.6%;
+  padding-bottom: 10.5%;
+  background-color: #F7F3ED;
+}
+
+.adrianas-interviews {
+  display: flex;
+}
+
+.adrianas-interviews figure img {
+  border-radius: 100%;
+}
+
+.interview-links {
+  width: 25%;
+  margin-left: 6.8%;
+}
+
+.interview-links h3 {
+  margin-bottom: 30px;
+  font-size: 19px;
+  font-weight: bold;
+}
+
+.interview-links a {
+  margin-bottom: 18px;
+  color: #000;
+  font-size: 18px;
+}
 
 /*=================================
   main styling ends here
