@@ -155,7 +155,7 @@ li {
 }
 
 .hamburger {
-  display: nones;
+  display: none;
 }
 
 .menu {
@@ -243,13 +243,14 @@ li {
   width: 37.4%;
   padding: 43px 0 56px 37px;
   position: absolute;
-  top: 161%;
+  top: 22.5%;
   left: 49.9%;
   background-color: #E7BD13;
   box-sizing: border-box;
 }
 
-.adeiana-ayales {
+.adriana-ayales {
+  padding-bottom: 34.7%;
   position: relative;
 }
 
@@ -269,26 +270,32 @@ li {
   flex-basis: 76.5%;
 }
 
-.adriana-details figure img {
+.anima-mundi-photo img {
   border-radius: 100%;
 }
 
 .video {
   width: 77.8%;
   position: absolute;
+  left: 11.1%;
+  bottom: -15.5%;
   z-index: 1;
 }
 
 .play-button {
-  display: block;
-  text-indent: -9999px;
   position: absolute;
+  bottom: -1.5%;
+  left: 46.2%;
+  display: block;
+  color: #fff;
+  text-indent: -9999px;
+  z-index: 2;
 }
 
 .play-button::before {
   content: "\f01d";
   float: right;
-  font-size: 29px;
+  font-size: 108px;
   font-family: "fontAwesome";
   text-indent: 0;
 }
@@ -298,7 +305,7 @@ li {
 }
 
 .meet-the-maker-bottom {
-  padding-top: 31.6%;
+  padding-top: 21.4%;
   padding-bottom: 10.5%;
   background-color: #F7F3ED;
 }
@@ -333,6 +340,7 @@ li {
 
   .anima-mundi-products {
     padding-top: 5.7%;
+    padding-bottom: 6.4%;
   }
 
   .anima-mundi-products .wrapper h2 {
@@ -392,6 +400,7 @@ li {
   footer styling starts here
 =================================*/ 
   footer {
+    padding-top: 74px;
     background-color: #000;
     color: #fff;
   }
@@ -419,11 +428,45 @@ li {
 
   .footer-details {
     margin-left: auto;
+    flex-basis: 50%;
+    font-size: 18px;
   }
 
+  .footer-details span {
+    margin-top: 10px;
+    display: block;
+  }
 
+  .footer-details .time {
+    margin-top: 41px;
+  } 
 
+  .icons {
+    width: 18%;
+    margin-top: 24.5%;
+    display: flex;
+    justify-content: space-between;
+  }
 
+  .icons li a {
+    text-indent: -9999px;
+  }
+
+  .icons li a::before {
+    content: "\f09a";
+    float: right;
+    font-size: 30px;
+    font-family: "fontAwesome";
+    text-indent: 0;
+  }
+   .icons li:nth-child(2) a::before {
+     content: "\f16d";
+   }
+
+   footer .copyright {
+     display: inline-block;
+     font-size: 17px
+   }
 
  /*=================================
   footer styling ends here
