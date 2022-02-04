@@ -99,14 +99,27 @@ li {
 
 /*for wrapper*/
 .wrapper {
-  max-width: 1360px;
-  width: 86%; 
+  max-width: 1536x;
+  width: 80.5%; 
   margin: 0 auto;
 }
 /*=================================
   Header styling starts here
 =================================*/
+header {
+  /* background-color: #000; */
+}
 
+.headertop .wrapper {
+  display: flex;
+  justify-content: space-between;
+  background-color: #000;
+  color: #fff;
+}
+
+.subscribe {
+  margin-left: auto;
+}
 
 
 
