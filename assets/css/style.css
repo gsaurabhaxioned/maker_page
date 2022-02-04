@@ -156,12 +156,73 @@ li {
 /*=================================
   main styling starts here
 =================================*/
+.meet-the-maker .wrapper {
+  margin-top: 40px;
+}
 
+.meet-the-maker-top {
+  display: flex;
+  justify-content: space-between;
+}
 
+.meet-the-maker-top h2 {
+  margin-top: 23px;
+  font-size: 26px;
+  font-weight: bold;
+}
 
+.dash-after::after {
+  content: "\f068";
+  font-family: "fontAwesome";
+  font-size: 9px;
+}
 
+.buttons {
+  flex-basis: 35.2%;
+  display: flex;
+  justify-content: space-between;
+  font-size: 17px;
+  font-weight: bold;
+}
 
+.Adriana-photo {
+  width: 53.6%;
+  margin-top: 42px;
+}
 
+.Adriana-info h2 {
+  margin-bottom: 23px;
+  font-size: 44px;
+}
+
+.Adriana-info span {
+  display: block;
+  font-size: 22px;
+  line-height: 31px;
+}
+
+.Adriana-info {
+  width: 37.4%;
+  padding: 43px 0 56px 37px;
+  position: absolute;
+  top: 161%;
+  left: 49.9%;
+  background-color: #E7BD13;
+  box-sizing: border-box;
+}
+
+.Adeiana-ayales {
+  position: relative;
+}
+
+.Adriana-detalis p {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.Adriana-info {
+  display: flex;
+}
 
 
 /*=================================
