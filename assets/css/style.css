@@ -428,7 +428,7 @@ li {
 
   .footer-details {
     margin-left: auto;
-    flex-basis: 50%;
+    /* flex-basis: 50%; */
     font-size: 18px;
   }
 
@@ -442,7 +442,7 @@ li {
   } 
 
   .icons {
-    width: 18%;
+    width: 17%;
     margin-top: 24.5%;
     display: flex;
     justify-content: space-between;
