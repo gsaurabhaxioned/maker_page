@@ -329,6 +329,13 @@ li {
   font-weight: bold;
 }
 
+.after::after {
+  content: "\f107";
+  margin-left: 6px;
+  font-family: "fontAwesome";
+  cursor: pointer;
+}
+
 .middle-menus {
   margin-left: auto;
   margin-right: 7%;
