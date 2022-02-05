@@ -187,6 +187,14 @@ body {
 a {
   display: inline-block;
   text-decoration: none;
+  -webkit-transition: all  ease-in-out .5s;
+  -moz-transition: all ease-in-out .5s;
+  -o-transition: all ease-in-out .5s;
+  -ms-transition: all ease-in-out .5s;
+}
+
+a:hover {
+  color: #ffa500;
 }
 
 li {
@@ -332,7 +340,7 @@ li {
   display: flex;
   justify-content: space-between;
   font-size: 17px;
-  font-weight: bold;
+  font-weight: bold;cursor: pointer;
 }
 
 .adriana-photo {
@@ -346,7 +354,7 @@ li {
   white-space: nowrap;
 }
 
-.adriana-info span {
+.adriana-info span,.adriana-info address {
   display: block;
   font-size: 23px;
   font-weight: bold;
@@ -431,7 +439,7 @@ li {
 }
 
 .meet-the-maker-bottom {
-  padding-top: 21.4%;
+  padding-top: 23.1%;
   padding-bottom: 10.5%;
   background-color: #f7f3ed;
 }
@@ -468,13 +476,21 @@ li {
   font-size: 18px;
   line-height: 23px;
   text-decoration: underline;
+  -webkit-transition: all  ease-in-out .5s;
+  -moz-transition: all ease-in-out .5s;
+  -o-transition: all ease-in-out .5s;
+  -ms-transition: all ease-in-out .5s;
+}
+
+.interview-links a:hover {
+  color: #ffa500;
 }
 
 /* meet the maker styling end  */
 /* anima mundi products start  */
 
 .anima-mundi-products {
-  padding-top: 5.7%;
+  padding-top: 5.5%;
   padding-bottom: 6.4%;
 }
 
@@ -510,14 +526,16 @@ li {
   margin: 28px auto 45px auto;
 }
 
-.product-info span {
+.product-title {
   display: block;
+  color: #000;
   font-size: 19px;
   font-weight: bold;
 }
 
 .product-info .product-price {
   margin-top: 9px;
+  display: block;
   font-weight: normal;
 }
 
@@ -533,6 +551,14 @@ li {
   color: #000;
   font-size: 18px;
   font-weight: bold;
+  -webkit-transition: all  ease-in-out .5s;
+  -moz-transition: all ease-in-out .5s;
+  -o-transition: all ease-in-out .5s;
+  -ms-transition: all ease-in-out .5s;
+}
+
+.all-products a:hover {
+  color: #ffa500;
 }
 
 .all-products a::after {
@@ -562,15 +588,8 @@ footer a {
   color: #fff;
 }
 
-.footer-options a {
-  font-size: 19px;
-  -moz-transiton: all ease-in-out 3s;
-  -ms-transiton: all ease-in-out 3s;
-  -o-transiton: all ease-in-out 3s;
-  -webkit-transiton: all ease-in-out 3s;
-}
-
-.footer-options a:hover {
+ .footer-options a:hover {
+   color: #FFF;
   text-transform: uppercase;
   opacity: 0.6;
   
@@ -594,6 +613,7 @@ footer a {
 
 .footer-details {
   margin-left: auto;
+  flex-basis: 49.7%;
   font-size: 20px;
 }
 
@@ -653,6 +673,10 @@ footer .copyright {
   background-color: #fff;
 }
 
+.footer-options ul {
+  margin-top: 4px;
+}
+
 /*=================================
   footer styling ends here
 =================================*/
@@ -684,7 +708,7 @@ footer .copyright {
     font-size: 40px;
   }
 
-  .adriana-info span {
+  .adriana-info span,.adriana-info address {
     font-size: 20px;
   }
 
@@ -750,7 +774,7 @@ footer .copyright {
     font-size: 39px;
   }
 
-  .adriana-info span {
+  .adriana-info span,.adriana-info address {
     font-size: 20px;
   }
 
@@ -809,11 +833,15 @@ footer .copyright {
     left: 42%;
   }
 
+  .play-button::before {
+    font-size: 52px;
+  }
+
   .adriana-info h2 {
     font-size: 32px;
   }
 
-  .adriana-info span {
+  .adriana-info span,.adriana-info address {
     font-size: 15px;
   }
 
@@ -847,7 +875,7 @@ footer .copyright {
     font-size: 22px;
   }
 
-  .adriana-info span {
+  .adriana-info span,.adriana-info address {
     font-size: 12px;
   }
 
