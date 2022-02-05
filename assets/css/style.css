@@ -8,13 +8,87 @@
    v2.0 | 20110126
    License: none (public domain)
    ========================================================================== */
-html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p,
-blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img,
-ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center,
-dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody,
-tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure,
-figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
   margin: 0;
   padding: 0;
   border: 0;
@@ -24,22 +98,35 @@ time, mark, audio, video {
 }
 
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
   display: block;
 }
 
 /* Force scrollbar */
-html { overflow-y: scroll; }
+html {
+  overflow-y: scroll;
+}
 
 /* Align radios and text inputs with their label */
 
-input[type='radio'] { vertical-align: text-bottom; }
+input[type="radio"] {
+  vertical-align: text-bottom;
+}
 
 /* Hand cursor on clickable input elements */
 label,
-input[type='button'],
-input[type='submit'],
+input[type="button"],
+input[type="submit"],
 button {
   cursor: pointer;
 }
@@ -50,7 +137,9 @@ strong {
   font-size: inherit;
 }
 
-em { font-style: italic; }
+em {
+  font-style: italic;
+}
 
 img {
   width: 100%;
@@ -66,8 +155,12 @@ sup {
   line-height: 0;
 }
 
-sup { top: -.7em; }
-sub { bottom: -.25em; }
+sup {
+  top: -0.7em;
+}
+sub {
+  bottom: -0.25em;
+}
 
 /* 1.2. Clear Fix
    ========================== */
@@ -78,8 +171,12 @@ sub { bottom: -.25em; }
   content: " ";
 }
 
-.cf:after { clear: both; }
-.cf { *zoom: 1; }
+.cf:after {
+  clear: both;
+}
+.cf {
+  *zoom: 1;
+}
 
 /*for all*/
 body {
@@ -87,9 +184,9 @@ body {
   font-family: sans-serif;
 }
 
-a { 
+a {
   display: inline-block;
-  text-decoration: none; 
+  text-decoration: none;
 }
 
 li {
@@ -100,7 +197,7 @@ li {
 /*for wrapper*/
 .wrapper {
   max-width: 1536x;
-  width: 80.5%; 
+  width: 80.5%;
   margin: 0 auto;
 }
 /*=================================
@@ -108,7 +205,7 @@ li {
 =================================*/
 .headertop {
   padding: 8px 0;
- background-color: #000;
+  background-color: #000;
 }
 
 .headertop .wrapper {
@@ -130,12 +227,14 @@ li {
   margin-left: 18px;
 }
 
-.add-to-cart-icon,.header-top-icon {
+.add-to-cart-icon,
+.header-top-icon {
   display: block;
   text-indent: -9999px;
 }
 
-.add-to-cart-icon::before,.header-top-icon::before {
+.add-to-cart-icon::before,
+.header-top-icon::before {
   content: "\f217";
   float: right;
   font-size: 29px;
@@ -184,11 +283,9 @@ li {
   align-items: center;
 }
 
-
-
 /*=================================
   Header styling ends here
-=================================*/  
+=================================*/
 
 /*=================================
   main styling starts here
@@ -231,6 +328,7 @@ li {
 .adriana-info h2 {
   margin-bottom: 17px;
   font-size: 56px;
+  white-space: nowrap;
 }
 
 .adriana-info span {
@@ -238,15 +336,20 @@ li {
   font-size: 23px;
   font-weight: bold;
   line-height: 31px;
+  white-space: nowrap;
 }
 
 .adriana-info {
   width: 37.4%;
-  padding: 43px 0 56px 37px;
+  /* padding: 43px 49px 56px 37px; */
+  padding-left: 3%;
+  padding-top: 3.4%;
+  padding-right: 43.1%;
+  padding-bottom: 4.5%;
   position: absolute;
   top: 22.5%;
   left: 49.9%;
-  background-color: #E7BD13;
+  background-color: #e7bd13;
   box-sizing: border-box;
 }
 
@@ -308,7 +411,7 @@ li {
 .meet-the-maker-bottom {
   padding-top: 21.4%;
   padding-bottom: 10.5%;
-  background-color: #F7F3ED;
+  background-color: #f7f3ed;
 }
 
 .meet-the-maker-bottom .wrapper {
@@ -345,70 +448,70 @@ li {
 /* meet the maker styling end  */
 /* anima mundi products start  */
 
-  .anima-mundi-products {
-    padding-top: 5.7%;
-    padding-bottom: 6.4%;
-  }
+.anima-mundi-products {
+  padding-top: 5.7%;
+  padding-bottom: 6.4%;
+}
 
-  .anima-mundi-products .wrapper h2 {
-    margin-bottom: 73px;
-    font-size: 24px;
-    font-weight: bold;
-    text-align: center;
-  }
+.anima-mundi-products .wrapper h2 {
+  margin-bottom: 73px;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+}
 
-  .our-products {
-    display: flex;
-    justify-content: space-between;
-    text-align: center;
-  }
+.our-products {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
 
-  .product-info {
-    flex-basis: 23%;
-    text-align: center;
-  }
+.product-info {
+  flex-basis: 23%;
+  text-align: center;
+}
 
-  .product-info::before {
-    content: "";
-    width: 98%;
-    height: 5px;
-    margin: auto;
-    display: block;
-    background-color: #E7BD13;
-  }
+.product-info::before {
+  content: "";
+  width: 98%;
+  height: 5px;
+  margin: auto;
+  display: block;
+  background-color: #e7bd13;
+}
 
-  .product-info figure {
-    width: 140px;
-    margin:28px auto 45px auto;
-  }
+.product-info figure {
+  width: 140px;
+  margin: 28px auto 45px auto;
+}
 
-  .product-info span {
-    display: block;
-    font-size: 19px;
-    font-weight: bold;
-  }
+.product-info span {
+  display: block;
+  font-size: 19px;
+  font-weight: bold;
+}
 
-  .product-info .product-price {
-    margin-top: 9px;
-    font-weight: normal;
-  }
+.product-info .product-price {
+  margin-top: 9px;
+  font-weight: normal;
+}
 
-  .all-products {
-    padding: 13px 21px;
-    margin-top: 4%;
-    margin-left: 40%;
-    border: 3px solid #000;
-    display: inline-block;
-    color: #000;
-    font-size: 18px;
-    font-weight: bold;
-  }
+.all-products {
+  padding: 13px 21px;
+  margin-top: 4%;
+  margin-left: 40%;
+  border: 3px solid #000;
+  display: inline-block;
+  color: #000;
+  font-size: 18px;
+  font-weight: bold;
+}
 
-  .all-products::after {
-    margin-left: 11px;
-    content: "\f178";
-    font-family: "fontAwesome";
-  }
+.all-products::after {
+  margin-left: 11px;
+  content: "\f178";
+  font-family: "fontAwesome";
+}
 /* anima mundi producs ends  */
 /*=================================
   main styling ends here
@@ -416,105 +519,199 @@ li {
 
 /*=================================
   footer styling starts here
-=================================*/ 
-  footer {
-    padding: 73px 0 43px 0;
-    background-color: #000;
-    color: #fff;
+=================================*/
+footer {
+  padding: 73px 0 43px 0;
+  background-color: #000;
+  color: #fff;
+}
+
+footer a {
+  color: #fff;
+}
+
+.footer-options a {
+  font-size: 19px;
+  -moz-transiton: all ease-in-out 3s;
+  -ms-transiton: all ease-in-out 3s;
+  -o-transiton: all ease-in-out 3s;
+  -webkit-transiton: all ease-in-out 3s;
+}
+
+.footer-options a:hover {
+  text-transform: uppercase;
+  opacity: 0.6;
+  
+}
+
+.footer-top {
+  display: flex;
+}
+
+.footer-options {
+  flex-basis: 33.5%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-options ul {
+  display: flex;
+  flex-direction: column;
+  row-gap: 12px;
+}
+
+.footer-details {
+  margin-left: auto;
+  flex-basis: 50%;
+  font-size: 20px;
+}
+
+.footer-details span,
+.footer-details address {
+  margin-top: 10px;
+  display: block;
+}
+
+.address,
+.footer-details .time,
+.icons {
+  margin-left: 52.2%;
+}
+
+.footer-details .time {
+  margin-top: 41px;
+}
+
+.icons {
+  width: 12.6%;
+  margin-top: 18%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.icons li a {
+  text-indent: -9999px;
+}
+
+.icons li a::before {
+  content: "\f09a";
+  float: right;
+  font-size: 30px;
+  font-family: "fontAwesome";
+  text-indent: 0;
+}
+.icons li:nth-child(2) a::before {
+  content: "\f16d";
+}
+
+footer .copyright {
+  margin-top: 19%;
+  display: inline-block;
+  font-size: 17px;
+}
+
+.copyright:nth-child(3) {
+  margin-left: 10px;
+}
+
+.footer-bottom {
+  padding: 100px 0;
+  background-color: #fff;
+}
+
+/*=================================
+  footer styling ends here
+=================================*/
+
+/*media query starts*/
+
+@media only screen and (max-width: 1440px) {
+  .adriana-info {
+    width: 50%;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .adriana-info {
+    top: 5%;
+    left: 21%;
   }
 
-  footer a {
-    color: #fff;
+  .adriana-info h2 {
+    font-size: 40px;
   }
 
-  .footer-options a {
-    font-size: 19px;
-  }
-
-  .footer-top {
-    display: flex;
-  }
-
-  .footer-options {
-    flex-basis: 33.5%;
-    display: flex;
-    justify-content: space-between;
-  }
-
-  .footer-options ul {
-    display: flex;
-    flex-direction: column;
-    row-gap: 12px;
-  }
-
-  .footer-details {
-    margin-left: auto;
-    flex-basis: 50%;
+  .adriana-info span {
     font-size: 20px;
   }
 
-  .footer-details span,.footer-details address {
-    margin-top: 10px;
-    display: block;
-  }
-
-  .address,.footer-details .time,.icons {
-    margin-left: 52.2%;
-  }
-
-  .footer-details .time {
-    margin-top: 41px;
-  } 
-
-  .icons {
-    width: 12.6%;
-    margin-top: 18%;
-    display: flex;
-    justify-content: space-between;
-  }
-
-  .icons li a {
-    text-indent: -9999px;
-  }
-
-  .icons li a::before {
-    content: "\f09a";
-    float: right;
-    font-size: 30px;
-    font-family: "fontAwesome";
-    text-indent: 0;
-  }
-   .icons li:nth-child(2) a::before {
-     content: "\f16d";
-   }
-
-   footer .copyright {
-     margin-top: 19%;
-     display: inline-block;
-     font-size: 17px
-   }
-
-   .copyright:nth-child(3) {
-     margin-left: 10px;
-   }
-
-   .footer-bottom {
-     padding: 100px 0;
-     background-color: #fff;
-   }
-
- /*=================================
-  footer styling ends here
-=================================*/ 
-
-/*media query starts*/
+}
 /*media query for 995px starts here*/
 @media only screen and (max-width: 995px) {
-
-.adriana-info,.video,.play-button {
+  /* .adriana-info,.video,.play-button {
   display: none;
+} */
+
+  .header-bottom,
+  .meet-the-maker-top,
+  .adriana-details,
+  .adrianas-interviews,
+  .our-products,
+  .footer-top {
+    flex-direction: column;
+    row-gap: 20px;
+  }
+
+  .menu ul li a {
+    font-size: 14px;
+  }
+
+  .adriana-details p {
+    font-size: 20px;
+  }
+
+  .anima-mundi-photo {
+    width: 205px;
+  }
+
+  .adrianas-interviews figure {
+    width: 321px;
+  }
+
+  .interview-links {
+    width: 100%;
+  }
+
+  .footer-details {
+    margin-left: 0;
+    margin-right: auto;
+  }
+
+  .adriana-info {
+    top: 0;
+  }
+
+  .adriana-info h2 {
+    font-size: 39px;
+  }
+
+  .adriana-info span {
+    font-size: 20px;
+  }
+
+  .video {
+    bottom: -13.5%;
+  }
+
 }
 
-.header-bottom,
+@media only screen and (max-width: 768px) {
+  .adriana-info {
+    width: 70%;
+    left: 38%;
+  }
 
-}  
+  .video {
+    bottom: -8.5%;
+  }
+}
