@@ -253,8 +253,25 @@ li {
   border-bottom: 1px solid #000;
 }
 
-.hamburger {
+.hamburger,
+.cross {
+  margin-left: auto;
   display: none;
+  text-indent: -9999px; 
+}
+
+.hamburger::before,
+.cross::before {
+  content: "\f0c9";
+  float: right;
+  color: #000;
+  font-family: "fontAwesome";
+  cursor: pointer;
+  text-indent: 0;
+}
+
+.cross::before {
+  content: "\f00d";
 }
 
 .menu {
@@ -274,7 +291,7 @@ li {
   font-weight: bold;
 }
 
-.mideele-menus {
+.middle-menus {
   margin-left: auto;
   margin-right: 7.9%;
   flex-basis: 20.2%;
@@ -306,14 +323,12 @@ li {
   font-weight: bold;
 }
 
-.dash-after::after {
-  content: "\f068";
-  font-family: "fontAwesome";
-  font-size: 9px;
+.dash {
+  padding: 0 7px;
 }
 
 .buttons {
-  flex-basis: 35.2%;
+  flex-basis: 35.7%;
   display: flex;
   justify-content: space-between;
   font-size: 17px;
@@ -388,8 +403,12 @@ li {
 
 .play-button {
   position: absolute;
-  bottom: -1.5%;
-  left: 46.2%;
+  top: 40%;
+  left: 45%;
+  -webkit-transform: translate(-50% -50%);
+  -moz-transform: translate(-50% -50%);
+  -o-transform: translate(-50% -50%);
+  -ms-transform: translate(-50% -50%);
   display: block;
   color: #fff;
   text-indent: -9999px;
@@ -497,9 +516,12 @@ li {
 }
 
 .all-products {
+  text-align: center;
+}
+
+.all-products a{
   padding: 13px 21px;
   margin-top: 4%;
-  margin-left: 40%;
   border: 3px solid #000;
   display: inline-block;
   color: #000;
@@ -507,7 +529,7 @@ li {
   font-weight: bold;
 }
 
-.all-products::after {
+.all-products a::after {
   margin-left: 11px;
   content: "\f178";
   font-family: "fontAwesome";
@@ -524,6 +546,10 @@ footer {
   padding: 73px 0 43px 0;
   background-color: #000;
   color: #fff;
+}
+
+footer .wrapper {
+  width: 80.3%;
 }
 
 footer a {
@@ -562,7 +588,6 @@ footer a {
 
 .footer-details {
   margin-left: auto;
-  flex-basis: 50%;
   font-size: 20px;
 }
 
@@ -629,9 +654,18 @@ footer .copyright {
   .adriana-info {
     width: 50%;
   }
+
+  .buttons {
+    flex-basis: 41.7%;
+  }
 }
 
 @media only screen and (max-width: 1024px) {
+  .middle-menus {
+    margin-right: auto;
+    flex-basis: 40%;
+  }
+
   .adriana-info {
     top: 5%;
     left: 21%;
@@ -643,6 +677,10 @@ footer .copyright {
 
   .adriana-info span {
     font-size: 20px;
+  }
+
+  .play-button::before {
+    font-size: 80px;
   }
 
 }
@@ -662,8 +700,16 @@ footer .copyright {
     row-gap: 20px;
   }
 
+  .header-bottom,
+  .meet-the-maker-top,
+  .adriana-details,
+  .adrianas-interviews,
+  .our-products {
+    align-items: center;
+  }
+
   .menu ul li a {
-    font-size: 14px;
+    font-size: 11px;
   }
 
   .adriana-details p {
@@ -699,6 +745,10 @@ footer .copyright {
     font-size: 20px;
   }
 
+  .adriana-details p {
+    font-weight: normal;
+  }
+
   .video {
     bottom: -13.5%;
   }
@@ -706,6 +756,18 @@ footer .copyright {
 }
 
 @media only screen and (max-width: 768px) {
+  .menu {
+    display: none;
+  }
+
+  .hamburger {
+    display: block;
+  }
+
+  .buttons {
+    font-size: 14px;
+  }
+
   .adriana-info {
     width: 70%;
     left: 38%;
@@ -713,5 +775,52 @@ footer .copyright {
 
   .video {
     bottom: -8.5%;
+  }
+
+  .play-button {
+    top: 37%;
+    left: 42%;
+  }
+
+  .adriana-info h2 {
+    font-size: 32px;
+  }
+
+  .adriana-info span {
+    font-size: 15px;
+  }
+
+  .icons {
+    width: 25%;
+  }
+
+  .buttons {
+    font-size: 11px;
+  }
+
+ footer .copyright {
+    font-size: 13px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .middle-menus {
+    flex-basis: 60%;
+  }
+
+  .adriana-info {
+    width: 60%;
+  }
+
+  .adriana-info h2 {
+    font-size: 22px;
+  }
+
+  .adriana-info span {
+    font-size: 12px;
+  }
+
+  .play-button::before {
+    font-size: 44px;
   }
 }
