@@ -390,7 +390,10 @@ li {
 }
 
 .anima-mundi-photo img {
-  border-radius: 100%;
+  -webkit-border-radius: 100%;
+  -ms-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -o-border-radius: 100%;
 }
 
 .video {
@@ -442,7 +445,10 @@ li {
 }
 
 .adrianas-interviews figure img {
-  border-radius: 100%;
+  -webkit-border-radius: 100%;
+  -ms-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -o-border-radius: 100%;
 }
 
 .interview-links {
@@ -629,8 +635,11 @@ footer a {
   content: "\f16d";
 }
 
+.copyright-info {
+  margin-top: 18%;
+}
+
 footer .copyright {
-  margin-top: 19%;
   display: inline-block;
   font-size: 17px;
 }
@@ -758,6 +767,20 @@ footer .copyright {
 @media only screen and (max-width: 768px) {
   .menu {
     display: none;
+    background-color: #000;
+  }
+
+  .menu ul {
+    flex-direction: column;
+    row-gap: 20px;
+  }
+
+  .menu ul li {
+    text-align: center;
+  }
+
+  .menu ul li a {
+    color: #fff;
   }
 
   .hamburger {
@@ -766,6 +789,10 @@ footer .copyright {
 
   .buttons {
     font-size: 14px;
+  }
+
+  .buttons span {
+    cursor: pointer;
   }
 
   .adriana-info {
@@ -800,6 +827,10 @@ footer .copyright {
 
  footer .copyright {
     font-size: 13px;
+  }
+
+  .footer-options a,.footer-details {
+    font-size: 18px;
   }
 }
 
